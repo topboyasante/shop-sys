@@ -24,6 +24,10 @@ const cartSlice = createSlice({
             }
         },
         removeFromCart(state,{payload}){
+            const newCartAfterDeletion = state.cart.filter(item=>item.id !== payload)
+                state.cart = newCartAfterDeletion
+        },
+        reduceItem(state,{payload}){
             const existingItem = state.cart.find((item)=>item.id === payload)
             if(existingItem.qtyInCart === 1){
                 const newCartAfterDeletion = state.cart.filter(item=>item.id !== payload)

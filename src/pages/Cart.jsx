@@ -36,7 +36,7 @@ function Cart() {
                     dispatch(cartActions.increaseItem(item.id,item.name,item.price))
                   }
                   function decreaseItemValue(){
-                    dispatch(cartActions.removeFromCart(item.id,item.name,item.price))
+                    dispatch(cartActions.reduceItem(item.id,item.name,item.price))
                   }
                 return(
                     <section className='flex justify-around items-center bg-[#131313] p-3 rounded-md' key={item.id}>
