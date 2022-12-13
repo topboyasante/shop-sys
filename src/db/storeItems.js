@@ -188,4 +188,52 @@ export const storeItems = [
         category:'Gaming',
         qtyInCart:1,
     },
+    {
+        id:17,
+        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        name:'Lenovo Legion 7',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1,
+    },
+    {
+        id:18,
+        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        name:'Lenovo Legion 7',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1,
+    },
+    {
+        id:19,
+        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        name:'Lenovo Legion 7',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1,
+    },
+    {
+        id:20,
+        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        name:'Lenovo Legion 7',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1,
+    },
 ]

@@ -26,7 +26,7 @@ function Cart() {
             </div>
             <hr />
             {cart.length > 0 ?
-            <section className='my-5 flex flex-col gap-5 p-5'>
+            <section className='my-5 flex flex-col gap-5 px-1 py-5'>
             {cart.map((item)=>{
                 const itemTotalPrice = (item.price) * item.qtyInCart
                  function removeFromCart(){
@@ -40,7 +40,7 @@ function Cart() {
                   }
                 return(
                     <section className='flex justify-around items-center bg-[#131313] p-3 rounded-md' key={item.id}>
-                        <div className='w-[45%] flex justify-around items-center'>
+                        <div className='w-[50%] flex justify-around items-center'>
                             <p>{item.name}</p>
                             <div className='flex gap-3'>
                                 <button onClick={decreaseItemValue}>-</button>
@@ -48,7 +48,7 @@ function Cart() {
                                 <button onClick={increaseItemValue}>+</button>
                             </div>
                         </div>
-                        <div className='w-[45%] flex items-center justify-around'>
+                        <div className='w-[50%] flex items-center justify-around'>
                         <p>Price: ${itemTotalPrice}</p>
                         <RiDeleteBin6Line size={25} onClick={removeFromCart}/>
                         </div>
