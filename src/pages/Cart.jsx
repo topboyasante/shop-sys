@@ -15,7 +15,7 @@ function Cart() {
             <div className='flex justify-between items-center px-5'>
                 <h1 className='text-xl my-2'>Cart</h1>
                 <button onClick={clearCart} 
-                className='px-4 py-1 rounded-md bg-[#121212] hover:scale-105 ease duration-300'>
+                className='px-4 py-2 rounded-md bg-[#151515] hover:scale-105 ease duration-300 my-2'>
                     <p>Clear Cart</p>
                 </button>
             </div>
@@ -27,7 +27,7 @@ function Cart() {
                     dispatch(cartActions.removeFromCart(item.id))
                   }
                 return(
-                    <section className='flex justify-around items-center bg-[#121212] p-3 rounded-md'>
+                    <section className='flex justify-around items-center bg-[#131313] p-3 rounded-md'>
                         <div className='w-[45%] flex justify-around items-center'>
                             <p>{item.name}</p>
                             <div className='flex gap-3'>
