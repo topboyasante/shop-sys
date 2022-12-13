@@ -41,8 +41,8 @@ function Cart() {
                     dispatch(cartActions.reduceItem(item.id,item.name,item.price))
                   }
                 return(
-                   <main>
-                     <section className='flex justify-around items-center bg-[#131313] p-3 rounded-md' key={item.id}>
+                   <main key={item.id}>
+                     <section className='flex justify-around items-center bg-[#131313] p-3 rounded-md' >
                         <div className='w-[50%] flex justify-around items-center'>
                             <p>{item.name}</p>
                             <div className='flex gap-3'>

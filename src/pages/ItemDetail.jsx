@@ -62,7 +62,7 @@ function ItemDetail() {
     <main className='pt-[7vh] text-white bg-[#000000]'>
      
         <main className='max-w-[1500px] mx-auto'>
-            <button className='bg-[#121212] px-4 py-2 rounded-md hover:scale-105 ease duration-300'
+            <button className='ml-5 bg-[#121212] px-4 py-2 rounded-md hover:scale-105 ease duration-300'
             onClick={() => navigate(-1)}>
               Back
             </button>
