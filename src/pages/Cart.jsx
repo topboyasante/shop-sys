@@ -18,7 +18,7 @@ function Cart() {
         <section className='max-w-[1240px] mx-auto h-[93vh]'>
             <div className='flex justify-between items-center px-5'>
                 <h1 className='text-xl my-2'>Cart</h1>
-                <p className='text-2xl'>$ {totalPrice}</p>
+                <p className='text-2xl'>£ {totalPrice}</p>
                 <button onClick={clearCart} 
                 className='px-4 py-2 rounded-md bg-[#151515] hover:scale-105 ease duration-300 my-2'>
                     <p>Clear Cart</p>
@@ -49,7 +49,7 @@ function Cart() {
                             </div>
                         </div>
                         <div className='w-[50%] flex items-center justify-around'>
-                        <p>Price: ${itemTotalPrice}</p>
+                        <p>Price:£ {itemTotalPrice}</p>
                         <RiDeleteBin6Line size={25} onClick={removeFromCart}/>
                         </div>
                     </section>

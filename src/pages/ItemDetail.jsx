@@ -68,7 +68,7 @@ function ItemDetail() {
                 <div className='mt-2'>
                   <p className='text-gray-400'>Device Specifications: {currentItem.specs}</p>
                   <p>{currentItem.desc}</p>
-                  <p className='text-2xl'>${currentItem.price}</p>
+                  <p className='text-2xl'>£{currentItem.price}</p>
                   <button className='bg-[#ffffff] text-black px-4 py-2 rounded-md hover:scale-105 ease duration-200 my-2' onClick={addToCart}>
                     Add To Cart
                   </button>

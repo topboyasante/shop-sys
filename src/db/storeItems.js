@@ -168,7 +168,7 @@ export const storeItems = [
         id:15,
         img:'https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP858/mbp16-gray.png',
         name:'Apple Macbook Pro M2',
-        price:1099,
+        price:1699,
         specs:'Mac OS, M2, RTX 3090 Ti, 32GB RAM, 2TB SSD',
         desc:`Want to rev up your gaming Experience? 
         The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
@@ -180,7 +180,7 @@ export const storeItems = [
         id:16,
         img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
         name:'Asus Zenbook Pro Duo',
-        price:1099,
+        price:2599,
         specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
         desc:`Want to rev up your gaming Experience? 
         The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
@@ -190,9 +190,9 @@ export const storeItems = [
     },
     {
         id:17,
-        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        img:'https://www.lenovo.com/medias/?context=bWFzdGVyfHJvb3R8MTAzOTg1fGltYWdlL3BuZ3xoOWQvaDRkLzExNDg0MTMyNDA5Mzc0LnBuZ3w5ZTBkYzIwMmU4MjRkMTM1MTIzZjhhZTk2ZjFjNGJjMmQ3YTE5MWFjMzg4Y2RmZDk3YjZkM2E3Nzk0MjdjNjJj',
         name:'Lenovo Legion 7',
-        price:1099,
+        price:2099,
         specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
         desc:`Want to rev up your gaming Experience? 
         The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
@@ -202,9 +202,9 @@ export const storeItems = [
     },
     {
         id:18,
-        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
-        name:'Lenovo Legion 7',
-        price:1099,
+        img:'https://dlcdnwebimgs.asus.com/gain/546A0081-35C3-488F-BA26-EA2FFBC9E79F',
+        name:'ASUS ROG Strix',
+        price:1299,
         specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
         desc:`Want to rev up your gaming Experience? 
         The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
@@ -214,26 +214,26 @@ export const storeItems = [
     },
     {
         id:19,
-        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
-        name:'Lenovo Legion 7',
-        price:1099,
-        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
-        desc:`Want to rev up your gaming Experience? 
-        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
-        immerse yourself fully into your games when you purchase this beautiful rig.`,
-        category:'Gaming',
+        img:'https://shop.apcom.eu/public/content-images/ms/product/iphone-14-pro-max-gold-08092022-01-99368_big.png',
+        name:'iPhone 14 Pro Max',
+        price:899,
+        specs:'iOS 16, Factory Unlocked,16GB RAM, 1TB SSD',
+        desc:`A magical new way to interact with iPhone. Groundbreaking safety features designed to save lives. An innovative 48MP camera for mind-blowing detail. All powered by the ultimate smartphone chip.`,
+        category:'Phones',
         qtyInCart:1,
     },
     {
         id:20,
-        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
-        name:'Lenovo Legion 7',
-        price:1099,
-        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
-        desc:`Want to rev up your gaming Experience? 
-        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
-        immerse yourself fully into your games when you purchase this beautiful rig.`,
-        category:'Gaming',
+        img:'https://www.businessmobiles.com/wp-content/uploads/2022/02/S22Ultra_green-B.png',
+        name:'Galaxy S22 Ultra',
+        price:899,
+        specs:'Android OS 13, Factory Unlocked, 32GB RAM 1TB SSD',
+        desc:`Break the rules with:
+        Our fastest processor ever
+        Nightography camera
+        Way beyond all-day battery
+        The first Galaxy S with built-in S Pen`,
+        category:'Phones',
         qtyInCart:1,
     },
 ]

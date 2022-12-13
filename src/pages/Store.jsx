@@ -24,7 +24,7 @@ function Store() {
                         <section className='text-center py-2 flex flex-col items-center h-[50%]'>
                             <h3 className='font-[500] text-xl'>{item.name}</h3>
                             <small className='text-gray-400'>Category: {item.category}</small>
-                            <p>${item.price}</p>
+                            <p>£{item.price}</p>
                             <p>{item.specs}</p>
                             <Link to={`${item.id}`} key={item.id} className='hover:text-gray-800 ease duration-300 '>
                             <p className='border rounded-md px-4 py-2 w-[200px] my-2 text-center hover:bg-white'>View Specifications</p>
@@ -40,7 +40,7 @@ function Store() {
                         <section className='text-center py-5 flex flex-col items-center h-[50%]'>
                             <h3 className='font-[500] text-xl'>{item.name}</h3>
                             <small className='text-gray-400'>Category: {item.category}</small>
-                            <p className='text-xl'>${item.price}</p>
+                            <p className='text-xl'>£{item.price}</p>
                             <small>{item.specs}</small>
                             <Link to={`${item.id}`} key={item.id} className='hover:text-gray-800 ease duration-300 '>
                             <p className='border rounded-md px-4 py-2 w-[200px] my-2 text-center hover:bg-white'>View Specifications</p>
