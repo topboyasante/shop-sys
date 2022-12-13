@@ -24,8 +24,12 @@ const cartSlice = createSlice({
                 state.cart.push(payload)
             }
         },
-        removeFromCart(){
-
+        removeFromCart(state,{payload}){
+            const newCartAfterDeletion = state.cart.filter(item=>item.id !== payload)
+            state.cart = newCartAfterDeletion
+        },
+        clearCart(state){
+            state.cart.splice(0,state.cart.length)
         }
     }
 })

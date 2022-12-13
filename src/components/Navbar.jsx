@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <nav className='fixed top-0 left-0 w-screen z-10 h-[7vh] text-white p-5 flex items-center justify-between bg-[#000000]'>
-        <Link to='/'>
+        <Link to='/' className='hover:scale-105 ease duration-200 hover:text-xl'>
         <h1>FakeCommerce</h1>
         </Link>
         <Link to='/cart'>

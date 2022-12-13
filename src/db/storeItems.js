@@ -4,7 +4,10 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07579943.png',
         name:'HP Omen 17',
         price:1799,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -13,7 +16,10 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07594691.png',
         name:'HP Victus 16',
         price:999,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i5, RTX 3080, 16GB RAM, 500GB SSD',
+        desc:`On a budget? then the Victus 16 is the machine for you! 
+        This beast comes with a 12th Gen i5 Processor, good enough to run your games, video editing, 3D Designs and more
+        without breaking the bank on a new laptop.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -21,9 +27,11 @@ export const storeItems = [
         id:3,
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06440824.png',
         name:'HP Pavilion Gaming',
-        price:899,
-        specs:'12th Gen i9, RTX 3090 Ti',
-        category:'Gaming',
+        price:799,
+        specs:'Windows 11 Pro, 12th Gen i5, RTX 1660, 12GB RAM, 500GB SSD',
+        desc:`The Pavilion Gaming Laptop is if not the best, one of the best budget gaming laptops on the market.
+        This 2022 model uses the latest i5 processors, with a refresh rate of 75Hz. 
+        Perfect for a good gaming experience without breaking the bank.`,
         qtyInCart:1
     },
     {
@@ -31,7 +39,10 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06958068.png',
         name:'HP Spectre x360',
         price:899,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -40,7 +51,10 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07634758.png',
         name:'HP ZBook',
         price:1999,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -49,7 +63,10 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07965739.png',
         name:'HP Envy 17',
         price:1299,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -58,16 +75,22 @@ export const storeItems = [
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07059217.png',
         name:'HP Chromebook',
         price:239,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Chromebooks',
         qtyInCart:1
     },
     {
         id:8,
         img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08058615.png',
-        name:'HP Laptop - 17z-cp100',
+        name:'HP Laptop 17',
         price:799,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
@@ -76,7 +99,94 @@ export const storeItems = [
         img:'https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/laptop/prod-1750-notebook-alienware-m17-r5-black-800x550.png?fmt=png-alpha&wid=800&hei=550',
         name:'Dell Alienware',
         price:2099,
-        specs:'12th Gen i9, RTX 3090 Ti',
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1
+    },
+    {
+        id:10,
+        img:'https://assets3.razerzone.com/y6KpjV2o8WemyXDbbHKbmxYqAHg=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh6f%2Fh3b%2F9004167692318%2Frz09-03006e92-r3u1.png',
+        name:'Razer Blade 15',
+        price:2099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1
+    },
+    {
+        id:11,
+        img:'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06935355.png',
+        name:'HP Pavilion 15',
+        price:599,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Student',
+        qtyInCart:1
+    },
+    {
+        id:12,
+        img:'https://www.lenovo.com/medias/lenovo-laptops-legion-5-gen7-15-amd-subseries-hero.png?context=bWFzdGVyfHJvb3R8MzE4MzYyfGltYWdlL3BuZ3xoNTEvaGVkLzE0ODc2NDc4OTMwOTc0LnBuZ3xiOWJiMjI0ZTMzNjdkNjVlY2RjNWRiZjA5YjYzZmZlYzUzNGZjNDY3Y2ZkMTE3NGU3NTBkYjI4OWI3N2RkMTc4',
+        name:'Lenovo Legion 5',
+        price:599,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Student',
+        qtyInCart:1
+    },
+    {
+        id:13,
+        img:'https://images.acer.com/is/image/acer/predator-helios-300-ph315-55-4zone-backlit-on-wallpaper-black-01-2?$Product-Cards-XL$',
+        name:'Acer Predator',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1
+    },
+    {
+        id:14,
+        img:'https://storage-asset.msi.com/event/nb/2018/GS65/images/B.png',
+        name:'MSI GF65 Stealth',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Gaming',
+        qtyInCart:1
+    },
+    {
+        id:15,
+        img:'https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP858/mbp16-gray.png',
+        name:'Apple Macbook Pro M2',
+        price:1099,
+        specs:'Mac OS, M2, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
+        category:'Macbooks',
+        qtyInCart:1
+    },
+    {
+        id:16,
+        img:'https://dlcdnwebimgs.asus.com/gain/a12e763e-e650-453e-9582-d7071c937062/',
+        name:'Asus Zenbook Pro Duo',
+        price:1099,
+        specs:'Windows 11 Pro, 12th Gen i9, RTX 3090 Ti, 32GB RAM, 2TB SSD',
+        desc:`Want to rev up your gaming Experience? 
+        The Omen 17 is the machine for you! With the Latest Processors, and a whooping 240Hz Refresh rate,
+        immerse yourself fully into your games when you purchase this beautiful rig.`,
         category:'Gaming',
         qtyInCart:1
     },
