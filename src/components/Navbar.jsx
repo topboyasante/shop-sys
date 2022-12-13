@@ -12,7 +12,7 @@ function Navbar() {
         <Link to='/' className='hover:scale-105 ease duration-200 hover:text-xl'>
         <h1>FakeCommerce</h1>
         </Link>
-        <Link to='/cart'>
+        <Link to='/cart' className='hover:scale-105 ease duration-200'>
           <Badge badgeContent={cart.length} color="primary">
               <FiShoppingCart size={25}/>
           </Badge>
