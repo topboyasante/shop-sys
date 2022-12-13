@@ -1,6 +1,6 @@
 import React from 'react'
-import { useSelector,useDispatch  } from 'react-redux'
-import { Link, useParams } from 'react-router-dom'
+import { useSelector,useDispatch } from 'react-redux'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import Snackbar from '@mui/material/Snackbar';
 import IconButton from '@mui/material/IconButton';
 import {AiOutlineClose} from 'react-icons/ai'
@@ -9,6 +9,7 @@ import {cartActions} from '../redux/cartSlice.js'
 
 function ItemDetail() {
   const { itemID } = useParams()
+  const navigate = useNavigate();
   const dispatch = useDispatch()
   const shopItems = useSelector((state)=>state.shop.items)
   const currentItem = shopItems[itemID-1]
@@ -59,7 +60,12 @@ function ItemDetail() {
 
   return (
     <main className='pt-[7vh] text-white bg-[#000000]'>
+     
         <main className='max-w-[1500px] mx-auto'>
+            <button className='bg-[#121212] px-4 py-2 rounded-md hover:scale-105 ease duration-300'
+            onClick={() => navigate(-1)}>
+              Back
+            </button>
             <section className='flex flex-col lg:flex-row lg:items-center justify-center lg:justify-between lg:gap-10 lg:h-[93vh] p-5 lg:p-0'>
               <img src={currentItem.img} alt={currentItem.name} />
               <section className='my-3'>
