@@ -58,18 +58,21 @@ function ItemDetail() {
   );
 
   return (
-    <main className='pt-[7vh] text-white'>
+    <main className='pt-[7vh] text-white bg-[#000000]'>
         <main className='max-w-[1500px] mx-auto'>
             <section className='flex flex-col lg:flex-row lg:items-center justify-center lg:justify-between lg:gap-10 lg:h-[93vh] p-5 lg:p-0'>
               <img src={currentItem.img} alt={currentItem.name} />
               <section className='my-3'>
-                <h1 className='text-3xl'>{currentItem.name}</h1>
-                <p>{currentItem.specs}</p>
-                <p>{currentItem.desc}</p>
-                <p>${currentItem.price}</p>
-                <button className='bg-[#ffffff] text-black px-4 py-2 rounded-md hover:scale-105 ease duration-200 my-2' onClick={addToCart}>
-                  Add To Cart
-                </button>
+                <h1 className='text-3xl mb-2'>{currentItem.name}</h1>
+                <hr/>
+                <div className='mt-2'>
+                  <p className='text-gray-400'>Device Specifications: {currentItem.specs}</p>
+                  <p>{currentItem.desc}</p>
+                  <p className='text-2xl'>${currentItem.price}</p>
+                  <button className='bg-[#ffffff] text-black px-4 py-2 rounded-md hover:scale-105 ease duration-200 my-2' onClick={addToCart}>
+                    Add To Cart
+                  </button>
+                </div>
               </section>
               
             </section>
